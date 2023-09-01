@@ -14,3 +14,5 @@ disp(M)
 B=% ADD YOUR CODE HERE
 fprintf('Reduced echelon form: \n');
 disp(B)
+
+% Add comments/explanations here
