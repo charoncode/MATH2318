@@ -6,7 +6,7 @@ This is the repository of MATLAB resources for the course MATH 2318: Linear Alge
 * MATLAB has a built-in editor that should open automatically when you start (if not, click on New Script on the top left, which will create new blank script). This allows to write code, run it using the Run button and save your work into a .m file.
 * To learn more about Matlab commands use the built in Matlab help and documentation. For example, if you want to learn about the `rand` command type `doc rand` or `help rand` into the Matlab command window.
 * The documentation can also be found online. You can simply type `Matlab cmd`, where `cmd` represents the command or operation you are interested in, into your favorite search engine to learn more about it.
-* Take a look at the scripts in the [examples](https://github.com/charoncode/MATH2318/examples) folder. These scripts provide code snippets to help you with your homework assignments.
+* Take a look at the scripts in the [examples](examples) folder. These scripts provide code snippets to help you with your homework assignments.
 
 
 ### Download and Installation
