@@ -55,10 +55,22 @@ A = rand(10,5);
 b = rand(10,1);
 M = [A, b];
 
+
+% Delete a particular column from a matrix
+A = rand(10,5);
+B = A(:,2:5); %matrix A with first column deleted
+C = A(:,[1:2,4:5]); %matrix A with third column deleted
+
+% Delete a particular row from a matrix
+A = rand(10,5);
+B = A(2:10,:); %matrix A with first row deleted
+C = A([1:4,6:8,10],:); %matrix A with 5th and 9th rows deleted
+
 % Access a specific entry in a matrix
 A = rand(10,5);
 a23 = A(2,3); 
 
 % Extract a particular column in a matrix 
 u4 = A(:,4); %4th column of A
+
 
