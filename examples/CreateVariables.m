@@ -18,11 +18,6 @@ x = rand(4,1);
 % create a 4x1 column vector vector of ones
 x = ones(4,1);
 
-
-% create a 1x4 row vector vector of ones
-x = ones(4,1);
-
-
 % create a 1x4 row vector vector of ones
 x = ones(1,4);
 
@@ -50,12 +45,6 @@ A = zeros(4,4);
 A = rand(10,5);
 
 
-% create an augmented matrix M = [A | b] by column concatenation
-A = rand(10,5);
-b = rand(10,1);
-M = [A, b];
-
-
 % Delete a particular column from a matrix
 A = rand(10,5);
 B = A(:,2:5); %matrix A with first column deleted
@@ -73,4 +62,10 @@ a23 = A(2,3);
 % Extract a particular column in a matrix 
 u4 = A(:,4); %4th column of A
 
+% create an augmented matrix M = [A | b] by column concatenation
+A = rand(10,5);
+b = rand(10,1);
+M = [A, b];
 
+% compute REF of M
+REF = rref(M);
