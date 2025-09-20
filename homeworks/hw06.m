@@ -10,12 +10,12 @@ A = [10 -7  1   4  6; ...
 % create augmented matrix associated to A*x = 0
 M= % ADD YOUR CODE HERE
 
-% check that A*x = 0 has free variables
+% Find REF of M
 % ADD YOUR CODE HERE
 fprintf('reduced echelon form of [A 0]\n');
 % ADD YOUR CODE HERE
 
-% inspect your result and draw conclusions
+% inspect your result and write conclusions HERE
 
 
 % Build augmented matrix without the first column 
@@ -26,4 +26,4 @@ M2= % ADD YOUR CODE HERE
 fprintf('reduced echelon form of [A(:,2:5) 0]\n');
 % ADD YOUR CODE HERE
 
-% inspect your result and draw conclusions
+% inspect your result and write conclusions HERE
