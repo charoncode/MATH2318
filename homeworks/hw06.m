@@ -7,9 +7,6 @@ A = [10 -7  1   4  6; ...
      -7 11 -5  -1 -8; ...
       3 -1 10  12 12];
 
-% Explain without calculation why the columns of A are linearly independent
-% or dependent.
-
 % create augmented matrix associated to A*x = 0
 M= % ADD YOUR CODE HERE
 
